@@ -1,0 +1,13 @@
+Often people describe the intensity of certain things they've done - a hike, a college course with a tough professor, a personal challenge. Some of these are person specific, some are exaggerated, but a rare few meet - and even exceed - the word of mouth. After one week of Metis, I have a distinct feeling this will be one of the rare, latter experiences. As I begin to grasp an understanding of the depth of the topics, how numerous they are, and how little time we have, I'm realizing that waking hours are going to need to be budgeted most efficiently over the next 11 months. 
+
+Week 1 was a question of sink or swim in a pool full of data and pandas. Luckily, this week we had team members to help us from drowning. Our project - which we started on day 1 - was to take MTA turnstile data, and draw meaningful conclusions from it. More specifically, we were tasked with helping a fictional tech organization maximize its marketing efforts at Subway entrances.
+
+The initial step was to take a look at our data. The main metrics we looked into were: station volume (total ridership by station), daily volume (volume by day of the week), hourly volume(volume by time of day).  Ranking subway stations by total ridership seemed like a good place to start. Here we found our first data issue - 5th avenue had an impossible number of people supposedly flowing through it. This led us to realize that the data couldn't be trusted. It was scrubbed for more outliers. 
+
+The second major data issue we ran into was one our group came to coin the "Wall St Problem." Each MTA turnstile record is a snapshot of cumulative count. These snapshots occur in 4 hour intervals. Most turnstiles recorded their data at the same time each day i.e 00:00, 04:00, 08:00, 12:00, 16:00, 20:00. At Wall St, however, we had data snapshots at every hour. This meant that different turnstiles ran on different intervals. 
+
+Eventually, we had a clean data set that we could start working on. Our approach married tech clusters in New York (acquired from a secondary data source) with stations that had high volume. We targeted riders on weekdays (for volume) on their way home rather than on their way to work (assumption being that the morning commute is more rushed, and people are less willing to stop).    
+
+The time leading up to our final presentation was stressful, but when we finally got to presenting, things seemed to flow naturally. Having discussed the data so much as a team - each of us catching nuances and questioning each others' logic - we developed a really sound understanding of the data. 
+
+I'll miss working in a group for the upcoming projects, but look forward to the continued challenges Metis presents. 
